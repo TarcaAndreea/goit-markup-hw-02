@@ -1,0 +1,110 @@
+body {
+  --body-color: #212121;
+  --hover-focus-color: #2196f3;
+  --white-color: #ffffff;
+}
+.page {
+  font-family: "Roboto";
+  color: var(--body-color);
+  font-style: normal;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
+}
+.first-text {
+  color: #2196f3;
+}
+
+.navigation-list a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--body-color);
+  text-decoration: none;
+}
+.porfolio a {
+  color: #2196f3;
+}
+.navigation-list > li {
+  list-style: none;
+}
+.navigation-list a:hover,
+.navigation-list a:focus {
+  color: var(--hover-focus-color);
+}
+.contacts-list a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.contacts-list > li {
+  list-style: none;
+}
+.contacts-list a:hover,
+.contacts-list a:focus {
+  color: var(--hover-focus-color);
+}
+.button-section {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  list-style: none;
+  cursor: pointer;
+}
+.button-all {
+  color: var(--white-color);
+  background-color: #2196f3;
+}
+.button-section button:hover,
+.button-section button:focus {
+  color: var(--hover-focus-color);
+}
+.images-section ul {
+  list-style: none;
+}
+.title-section {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.text-section {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer-section {
+  background-color: #2f303a;
+}
+.intormation-contacts a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  text-decoration: none;
+}
+.intormation-contacts > li {
+  list-style: none;
+}
+.contact-data a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.intormation-contacts a:hover,
+.intormation-contacts a:focus {
+  color: var(--hover-focus-color);
+}
